@@ -11,7 +11,7 @@
     "yarn": "please use pnpm"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -29,6 +29,7 @@
     "@types/node": "18.6.1",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
+    "cross-env": "^7.0.3",
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.3",
     "prettier": "^2.7.1",
