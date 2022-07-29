@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-pnpm run dev
+yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -16,39 +16,27 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+To start run:
+
+```bash
+yarn
+```
+
 Run the production minified build:
 
 ```bash
-pnpm run build
+yarn build
 ```
 
 Run ESLint before merging code
 
 ```bash
-pnpm run lint
+yarn lint
 ```
 
-Format the project with prettier
+## Recommendations
 
-```bash
-pnpm run build
-```
-
-Add a package dependency
-
-```bash
-pnpm add -D prettier
-```
-
-## Project Dependencies
-
-I use Husky for git hooks
-
-```bash
-npx husky install
-```
-
-Recommended: Install extension `Prettier - Code formatter` to let your editor automatically format your files.
+Install extension `Prettier - Code formatter` to let your editor automatically format your files.
 
 ## Contributing to the project
 

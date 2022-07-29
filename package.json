@@ -6,9 +6,8 @@
   "homepage": "https://github.com/LeidyRussell",
   "engines": {
     "node": ">=16.0.0",
-    "pnpm": ">=7.6.0",
-    "npm": "please use pnpm",
-    "yarn": "please use pnpm"
+    "npm": "please use yarn",
+    "yarn": ">=1.22.10"
   },
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
@@ -21,7 +20,8 @@
   "dependencies": {
     "next": "12.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "husky": "^8.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
